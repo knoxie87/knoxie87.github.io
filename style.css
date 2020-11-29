@@ -1,0 +1,155 @@
+body,header,p,h1{
+margin: 0px;
+padding: 0px;
+}
+.w3-bar{
+padding-top:0px;
+}
+.w3-bar #register{
+padding-right: 10px;
+}
+.w3-bar #navtitle
+{
+padding-left: 10px;
+vertical-align: middle;
+}
+.w3-bar .w3-bar-item {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+#headergroup
+{
+background-image: url(images/header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:200px;
+width: 100%;
+}
+.pad
+{
+padding-left: 10px;
+}
+.header1
+{
+padding-top: 50px;
+margin-left: -3px;
+font-family: Verdana;
+font-weight: bold;
+}
+.header2
+{
+padding-top: 20px;
+font-size: 17.3px;
+}
+#search_filter_section{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(178, 173, 173);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.stat1{
+text-align: center;
+font-weight: bold;
+}
+.src{
+float: left;
+height: 28px;
+width: fit-content;
+text-align: left;
+}
+.stat2{
+text-align: center;
+font-weight: bold;
+
+}
+#navbar .butsrc{
+float: left;
+height: 28px;
+}
+#maincontent
+{
+padding-top: 10px;
+display: grid;
+grid-template-columns: 1fr 5fr 1fr;
+grid-auto-rows: 1fr;
+}
+.trophyimg{
+max-height:100%; max-width:100%;
+padding-left: 10px;
+padding-right: 10px;
+}
+#players_section
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-gap: 10px;
+}
+@media (max-width: 1025px) {
+#players_section{
+grid-template-columns: 1fr 1fr;
+}
+}
+.w3-card-0
+{
+border-style: solid;
+border-width: 1px;
+border-color: rgb(178, 173, 173);
+
+}
+.player_text{
+font-weight: bold;
+text-align: left;
+margin-top: 7px;
+}
+.position_text{
+padding-top: 10px;
+line-height: 0.9;
+}
+.links{
+text-align: left;
+padding-left: 10px;
+}
+.borderlink{
+    padding-left: 5px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+footer{
+padding-top: 10px;
+}
+footer .creater{
+border-bottom: solid;
+border-top: solid;
+border-width: 1px;
+border-color: lightgrey;
+font-size: 13px;
+padding: 5px;
+}
+#maincontent .w3-ul{
+padding-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+}
+#maincontent .w3-ul .li{
+padding-top: 5.9px;
+padding-bottom: 5.9px;
+}
+#maincontent .w3-ul .li1{
+padding-top: 0px;
+margin-top: -2.6px;
+}
+#maincontent .w3-ul .li2{
+padding-bottom: 0px;
+padding-top: 14.5px;
+line-height: 1;
+}
+#maincontent .w3-ul .li3{
+padding-top: 4px;
+    }
+#card_container{
+padding-bottom: 10px;
+}
